@@ -122,6 +122,7 @@ h4. Core
 * Don't rename users table if +User+ constant is defined ("c77c822":https://github.com/spree/spree/commit/c77c822)
 * Removed all references to link_to_function throughout Spree, replace with 100% JavaScript
 * Moved +get_taxonomies+ helper method out of +Spree::Core::ControllerHelpers+ into +Spree::ProductsHelper+ ("980348a":https://github.com/spree/spree/commit/980348a)
+* Allow cancellation of orders with no shipments (shipment_state == nil) ("42c8739":https://github.com/crystalneth/spree/commit/42c87399c025fb1e5e8fe41870ea0547eb294ca3)
 
 h4. Promo
 
